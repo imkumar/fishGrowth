@@ -1,0 +1,23 @@
+Package: fishGrowth
+Type: Package
+Title: Generalized von Bertalanffy Growth Model for Analyzeing Fish Growth
+Version: 0.0.0.9000
+Authors@R: c(person("Rajeev", "Kumar",
+                    email = "Rajeev.Kumar@mi.mun.ca",
+                    role = c("aut", "cre")),
+             person("Divya", "Varkey",
+                    email = "Divya.Varkey@dfo-mpo.gc.ca", 
+                    role = c("aut")),
+             person("Noel", "Cadigan",
+                    email = "Noel.Cadigan@mi.mun.ca", 
+                    role = c("aut")),
+             person("Paul", "Regular", 
+                    email = "Paul.Regular@dfo-mpo.gc.ca", 
+                    role = c("aut")))
+Description: The model in this package fits a von Bertalanffy model to 
+             length-at-age data and also fits a length-weight relationship.
+Depends: R (>= 3.4.2), TMB, RcppEigen
+License: NA
+Encoding: UTF-8
+LazyData: true
+LinkingTo: TMB, RcppEigen
